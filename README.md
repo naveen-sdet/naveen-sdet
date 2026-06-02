@@ -1,6 +1,6 @@
 # Hi, I'm Naveen 👋
 
-**QA Automation Engineer** based in London, UK. I build production-grade test frameworks not just test scripts.
+**QA Automation Engineer** based in London, UK. I build production-grade test frameworks — not just test scripts.
 
 MSc Cyber Security · ISTQB CTFL · 2+ years shipping automation in Agile teams.
 
@@ -31,9 +31,11 @@ I care about tests that actually catch bugs, not tests that just show a green ti
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
 
-**80+ tests** across 9 test categories: UI, API, security, accessibility, audit trail, performance, network interception, visual regression, and cross-browser.
+**175+ tests** across 9 test categories: UI, API, security, accessibility, audit trail, performance, network interception, visual regression, and cross-browser.
 
-Key differentiator: **audit trail immutability verified** — confirmed no REST endpoint exists to delete or tamper with audit log entries. Documented tRPC-only access as a compliance gap for external integrators — exactly the kind of finding that matters in regulated industries.
+Key differentiator: **4 real security findings surfaced against production open-source software** — including missing OWASP security headers and wildcard CORS on the REST API. Documented with `test.fail()` so CI stays green and any upstream fix is automatically detected.
+
+Audit trail immutability is also verified: `DELETE` and `PATCH` on `/api/v1/documents/:id/audit-logs` both return 404. Documented the tRPC-only access as a compliance gap for regulated-industry integrators.
 
 ---
 
@@ -46,6 +48,8 @@ Key differentiator: **audit trail immutability verified** — confirmed no REST 
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat&logo=azuredevops&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white)
+![Pact](https://img.shields.io/badge/Pact-E43C3C?style=flat&logoColor=white)
 
 ---
 
@@ -59,8 +63,8 @@ Key differentiator: **audit trail immutability verified** — confirmed no REST 
 
 ## Currently
 
-- 🔨 Extending the Documenso framework — Phase 2: deeper API contract coverage and webhook testing
-- 🎯 Targeting SDET roles at UK fintechs, legaltech, and regulated-industry tech companies
+- 🔨 Phase 2 of the Documenso framework — AI testing agent, mutation testing with Stryker, chaos scenarios
+- 🎯 Actively applying to SDET roles at UK fintechs, legaltech, and regulated-industry tech companies
 - 📚 MSc Cyber Security, Bournemouth University (2024–2025)
 
 ---
