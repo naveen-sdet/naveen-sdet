@@ -1,6 +1,6 @@
 # Hi, I'm Naveen 👋
 
-**QA Automation Engineer** based in London, UK. I build production-grade test frameworks — not just test scripts.
+**QA Automation Engineer** based in London, UK. I build production-grade test frameworks not just test scripts.
 
 MSc Cyber Security · ISTQB CTFL · 2+ years shipping automation in Agile teams.
 
